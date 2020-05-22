@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+/* ================================= 
+  Main Elements
+==================================== */
+body {
+    background-color: rgb(248, 248, 248);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 0px 25px;
+    color: rgb(207, 187, 97);
+}
+
+.main-nav {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+.main-nav li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+main h2 {
+    padding: 25px 0px 20px;
+}
+
+main p {
+    padding: 0px 25px
+}
+
+main ul {
+    list-style: none;
+    margin: 20px;
+}
+
+main li {
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+    padding: 0px 10px;
+}
+
+header img {
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}
+
+main, header p {
+    font-size: 1.2em;
+}
+
+#skills-img {
+    max-width: 80%;
+    border-radius: 10%;
+}
+
+
+footer {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer-name {
+    float: left;
+    margin-left: 20px;
+}
+
+.back-to-top {
+    float: right;
+    margin-right: 20px;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.bottom-nav {
+    display:none;
+}
+
+/* ================================= 
+  Other Styles
+==================================== */
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+a:hover {
+    color: rgb(155, 155, 155)
+}
+/* ================================= 
+  Clearfix
+==================================== */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+#portfolio {
+    padding-left: 10px;
+}
+
+.main-nav ul {
+    display: inline-block;
+    margin-bottom: 20px;
+ }
+
+.main-nav li {
+    display: inline-block;
+    background: none;
+}
+
+header img {
+    max-width: 40%;
+    float: right;
+    margin: 0px 20px
+}
+
+.col {
+    float: left;
+    max-width: 50%;
+    padding-left: 3px;
+    min-height: 450px;
+
+}
+
+.back-to-top {
+    display: none;
+}
+
+ .bottom-nav {
+     display: inline-block;
+     float: right;
+    
+ }
+
+ .bottom-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.bottom-nav li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    float: left;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer p {
+    margin: 30px
+}
+}
+@media (min-width: 1024px) {
+
+body {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+main {
+    border-radius: 5%;
+}
+
+header h1 {
+    float: left;
+    margin: 10px;
+}
+
+header img {
+    float: right;
+}
+
+header p {
+    text-align: left;
+
+}
+.main-nav {
+    text-align: right;
+    margin-right: 50px;    
+}
+
+.col {
+    width: 33%;
+    text-align: center;
+}
+}
